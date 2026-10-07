@@ -1,0 +1,9 @@
+{
+    // Go was installed to ~/.local/go; point the extension at it explicitly
+    // so it works even if VS Code was started before PATH was updated.
+    "go.goroot": "/home/shyanyeong/.local/go",
+    "go.alternateTools": {
+        "dlv": "/home/shyanyeong/go/bin/dlv"
+    },
+    "go.useLanguageServer": true
+}
